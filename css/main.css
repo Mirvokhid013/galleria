@@ -1,0 +1,222 @@
+@font-face {
+    font-family: "Libre Baskerville", "Georgia", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/libre-baskerville-v14-latin-regular.woff2") format("woff2"),
+    url("./fonts/libre-baskerville-v14-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Libre Baskerville", "Georgia", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./fonts/libre-baskerville-v14-latin-700.woff2") format("woff2"), 
+    url("./fonts/libre-baskerville-v14-latin-700.woff") format("woff");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: "Libre Baskerville", "Georgia", serif;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+/* header  */
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.header-link {
+    color: #7D7D7D;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.571px;
+}
+
+/* hero section  */
+
+.hero-inner {
+    padding-top: 40px;
+    padding-bottom: 311px;
+}
+
+.hero-list {
+    display: grid;
+    grid-template-columns: repeat(4, 310px);
+    grid-template-rows: repeat(7, 200px);
+    gap: 40px;
+}
+
+.hero-list-item {
+    display: flex;
+    flex-direction: column-reverse;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info-wrapper {
+    padding-right: 32px;
+    padding-bottom: 33px;
+    padding-left: 32px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.84) 100%);
+}
+.hero-img-title {
+    margin-bottom: 6px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-img-text {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+.list-item-1 {
+    background-image: url("../images/i1.png");
+}
+
+.list-item-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url("../images/i2.png");
+}
+
+.list-item-3 {
+    background-image: url("../images/i3.png");
+}
+
+.list-item-4 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+    background-image: url("../images/i4.png");
+}
+
+.list-item-5 {
+    grid-row: 2 / 4;
+    background-image: url("../images/i5.png");
+}
+
+.list-item-6 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 5;
+    background-image: url("../images/i7.png");
+}
+
+.list-item-7 {
+    background-image: url("../images/i6.png");
+    
+}
+
+.list-item-8 {
+    background-image: url("../images/i8.png");
+}
+
+.list-item-9 {
+    grid-row: 4 / 7;
+    background-image: url("../images/i9.png");
+}
+
+.list-item-10 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 6;
+    background-image: url("../images/i10.png");
+}
+
+.list-item-11 {
+    background-image: url("../images/i121.png");
+}
+
+.list-item-12 {
+    grid-column: 3 / 4;
+    grid-row: 5 / 7;
+    background-image: url("../images/i11.png");
+}
+
+.list-item-13 {
+    grid-column: 4 / 5;
+    grid-row: 5 / 8;
+    background-image: url("../images/i12.png");
+}
+
+.list-item-14 {
+    grid-column: 2 / 3;
+    grid-row: 6 / 8;
+    background-image: url("../images/i14.png");
+}
+
+.list-item-15 {
+    background-image: url("../images/i13.png");
+}
+
+.list-item-16 {
+    background-image: url("../images/i8.png");
+}
